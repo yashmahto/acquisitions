@@ -2,9 +2,8 @@ import express from 'express';
 
 const app = express();
 
-
 app.get('/', (req, res) => {
-    res.status(200).send('Hello, Acquisitions!');
+  res.status(200).send('Hello, Acquisitions!');
 });
 
 export default app;
